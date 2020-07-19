@@ -1,0 +1,232 @@
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>OpenRooms</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="./index_files/icon.png">
+    <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./index_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./index_files/codemirror.min.css">
+    <link rel="stylesheet" href="./index_files/app.css">
+    <link rel="stylesheet" href="./index_files/bootstrap.min(1).css">
+
+    <script type="text/javascript" async="" src="./index_files/analytics.js"></script><script type="text/javascript" async="" src="./index_files/analytics(1).js"></script><script async="" src="./index_files/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110862391-3');
+    </script>
+
+    <script src="./index_files/jquery.min.js"></script>
+    <script src="./index_files/bootstrap.min.js"></script>
+    <script src="./index_files/codemirror.min.js"></script>
+    <script src="./index_files/clipboard.min.js"></script>
+
+    <script src="./index_files/app.js"></script>
+</head>
+
+<body data-gr-c-s-loaded="true">
+    <div class="container" id="main">
+        <div class="row">
+            <h1 class="col-md-12 text-center">
+                OpenRooms: An End-to-End Open Framework <br>for Photorealistic Indoor Scene Dataset
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://sites.google.com/a/eng.ucsd.edu/zhengqinli">
+                          Zhengqin Li
+                        </a><sup>1</sup>
+                    </li>
+                    <li>
+                        Ting-Wei Yu<sup>1</sup>
+                    </li>
+                    <li>
+                        Shen Sang<sup>1</sup>
+                    </li>
+                    <li>
+                        Sarah Wang<sup>1</sup>
+                    </li>
+                    <li>
+                        <a href="http://cseweb.ucsd.edu/~bisai/">
+                          Sai Bi
+                        </a><sup>1</sup>
+                    </li>
+                    <li>
+                        <a href="https://cseweb.ucsd.edu/~zex014/">
+                          Zexiang Xu
+                        </a><sup>1</sup>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://kovenyu.com/">
+                            Hong-Xing Yu
+                        </a><sup>3</sup>
+                    </li>
+                    <li>
+                        <a href="http://www.kalyans.org/">
+                            Kalyan Sunkavalli
+                        </a><sup>2</sup>
+                    </li>
+                    <li>
+                        <a href="http://www.miloshasan.net/">
+                            Milos Hasan
+                        </a><sup>2</sup>
+                    </li>
+                    <li>
+                        <a href="http://cseweb.ucsd.edu/~ravir/">
+                            Ravi Ramamoorthi
+                        </a><sup>1</sup>
+                    </li>
+                    <li>
+                        <a href="http://cseweb.ucsd.edu/~mkchandraker/">
+                            Manmohan Chandraker
+                        </a><sup>1</sup>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <sup>1</sup>UC San Diego
+                    </li>
+                    <li>
+                        <sup>2</sup>Adobe
+                    </li>
+                    <li>
+                        <sup>3</sup>Sun Yat-sen University
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a>
+                            <img src="./index_files/paper.jpg" height="120px"><br>
+                                <h4><strong>Paper</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./index_files/pipeline.mp4">
+                            <img src="./index_files/youtube_icon_dark.png" height="120px"><br>
+                                <h4><strong>Technical Video</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                            <img src="./index_files/github_pad.png" height="120px"><br>
+                                <h4><strong>Code</strong></h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Example Results
+                </h3>
+                <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                  <source src="./index_files/example.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+<!--         <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Links
+                </h3>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <img src="./index_files/teaser.png" class="img-responsive" alt="overview"><br>
+                <p class="text-justify">
+                Large-scale photorealistic datasets of indoor scenes, with ground truth geometry, materials and lighting, are important for deep learning applications in scene reconstruction and augmented reality. The associated shape, material and lighting assets can be scanned or artist-created, both of which are expensive; the resulting data is usually proprietary. We aim to make the dataset creation process for indoor scenes widely accessible, allowing researchers to transform casually acquired scans to large-scale datasets with high-quality ground truth. We achieve this by estimating consistent furniture and scene layout, ascribing high quality materials to all surfaces and rendering images with spatially-varying lighting consisting of area lights and environment maps. We demonstrate an instantiation of our approach on the publicly available ScanNet dataset. Deep networks trained on our proposed dataset achieve competitive performance for shape, material and lighting estimation on real images and can be used for photorealistic augmented reality applications, such as object insertion and material editing. Importantly, the dataset and all the tools to create such datasets from scans will be released, enabling others in the community to easily build large-scale datasets of their own.
+                </p>
+            </div>
+        </div>
+
+
+<!--         <div class="row" id="header_img">
+            <figure class="col-md-8 col-md-offset-2">
+                <image src="img/llff_teaser.png" class="img-responsive" alt="overview">
+                <figcaption>
+                </figcaption>
+            </figure>
+
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Technical Video
+                </h3>
+                <div class="text-center">
+                    <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                        <source src="./index_files/pipeline.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Dowload
+                </h3>
+                <p class='text-justify'>Our project is current under submission. To download the dataset, please send your request to the email <a>OpenRoomsDataset@gmail.com</a>. The download links will be sent to you once the dataset is released.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    BibTeX
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <p class='text-justify'>Coming soon.</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a>.
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
